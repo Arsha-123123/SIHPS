@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date:2/12/2024
+## Register Number:24900122
+## Name:Arsha Jith S J
 ## Problem Title
 Implementation of the Alumni Association platform for the University/Institute.
 ## Problem Description
@@ -10,16 +10,62 @@ Background: Alumni associations play a pivotal role in fostering lifelong connec
 Government of Gujarat
 
 ## Idea
-
+1. User-Friendly Registration and Profile Management
+Alumni Profile Setup: Allow users to easily create and customize their profiles, adding personal details, education history, work experience, skills, and areas of interest.
+Social Media Integration: Enable alumni to link their profiles with LinkedIn, Facebook, or other social platforms for seamless networking and professional visibility.
+2. Donation Portal
+One-Click Donations: Allow alumni to donate to the institution with a simple, one-click option, supported by various payment gateways.
+Campaigns and Fundraising: Feature dedicated fundraising campaigns (e.g., scholarships, infrastructure, research projects) and enable alumni to contribute to specific initiatives.
+3. Networking Hub
+Professional Networks: Include specialized networking areas where alumni can connect based on industry, profession, or expertise.
+Geographical Networking: Let alumni find and connect with people from their region, enabling localized meetups and networking.
 
 ## Proposed Solution / Architecture Diagram
-
+"C:\Users\arsha\OneDrive\ドキュメント\WhatsApp Image 2024-12-02 at 23.26.44_73b0e3a8.jpg"
 
 ## Use Cases
+Use Case 1: Alumni Registration
+Description: An alumni registers for the platform to join the alumni association.
+Actors: Alumni (New User)
+Preconditions: User has access to the platform (web or mobile).
+Postconditions: Alumni account is created, and profile is set up for future interactions.
+Use Case 2: View Donation History
+Description: Alumni view a history of their previous donations.
+Actors: Alumni (Registered User)
+Preconditions: Alumni is logged in to the platform.
+Postconditions: Alumni has a record of past donations.
+Use Case 3: Join a Professional Group
+Description: Alumni joins a professional or interest-based group (e.g., technology, business, research).
+Actors: Alumni (Registered User)
+Preconditions: Alumni is logged in to the platform.
+Postconditions: Alumni successfully joins a group.
+
 
 
 ## Technology Stack
-
+1. Frontend (Web and Mobile Applications)
+2. Backend (Server-Side)
+3. Database
+4. Cloud and Hosting
+5. Analytics and Monitoring
 
 ## Dependencies
+1. Web Application Dependencies:
+react (core library)
+react-dom (for rendering components)
+react-router-dom (for routing in single-page applications)
+redux (for state management)
+react-redux (to connect Redux with React)
+axios (for making HTTP requests to the backend)
+2.Mobile Application Dependencies (React Native):
+react-native (core library)
+react-navigation (for handling app navigation)
+react-redux (for managing app state)
+redux-thunk (for asynchronous Redux actions)
+axios (for HTTP requests)
+3.Analytics & Monitoring Dependencies:
+react-ga (Google Analytics for React)
+mixpanel (Mixpanel for event tracking)
+
+
 
